@@ -3,8 +3,8 @@ import asyncio
 from telebot.async_telebot import AsyncTeleBot
 
 # Masukan API OPENAI & BOT TELEGRAM
-openai.api_key = "isi-di-sini"
-bot = AsyncTeleBot('isi-di-sini')
+openai.api_key = "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"
+bot = AsyncTeleBot('5958847106:AAEttrZix9qRne9fj63q_A5LEmzi-ZIlCzI')
 
 
 @bot.message_handler(commands=['help', 'start'])
